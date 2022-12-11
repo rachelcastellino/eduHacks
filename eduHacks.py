@@ -10,9 +10,13 @@ def choosePath():
         draft()
 
 def challenge():
-    print("You chose to score your email. Please follow the prompts to enter your email purpose and email text. A score and feedback will be outputted.")
-    purpose = input("Please type in your email purpose: ")
-    email = input("Please enter your email text: ")
+    print("You chose Challenge. We will give you a variety of prompts and you will draft an email in under 350 words. We will then give you a score on how well your email is written and meets the purpose.")
+    print("Prompt 1: Write an email to an old colleague to ask them more about the work they are doing and how they like it at their company.")
+    email = input("")
+    print("Prompt 2: Write an email to a company asking about an out of stock item you have been wanting to buy. Mention you have a discount coupon and if that can be applied.")
+    email = input("")
+    print("Promtp 3: Write an email inviting your friends to a holiday party. Make sure you mention if it is a potluck and who needs to bring what.")
+    email = input("")
 
 def syllabus():
     print("You chose to push your syllabus.")
